@@ -1,0 +1,10 @@
+C:\Users\s-nrush\AppData\Local\Temporary Projects\CAS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s-nrush\AppData\Local\Temporary Projects\CAS\bin\Debug\CAS.dll
+C:\Users\s-nrush\AppData\Local\Temporary Projects\CAS\bin\Debug\CAS.pdb
+C:\Users\s-nrush\AppData\Local\Temporary Projects\CAS\obj\Debug\CAS.dll
+C:\Users\s-nrush\AppData\Local\Temporary Projects\CAS\obj\Debug\CAS.pdb
+C:\Users\s-nrush\Desktop\Dev\CAS\CAS\bin\Debug\CAS.dll
+C:\Users\s-nrush\Desktop\Dev\CAS\CAS\bin\Debug\CAS.pdb
+C:\Users\s-nrush\Desktop\Dev\CAS\CAS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\s-nrush\Desktop\Dev\CAS\CAS\obj\Debug\CAS.dll
+C:\Users\s-nrush\Desktop\Dev\CAS\CAS\obj\Debug\CAS.pdb
