@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CAS
 {
-    abstract class Element
+    public abstract class Element
     {
         
     }

@@ -8,10 +8,10 @@ namespace Test
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            double r;
-            Console.WriteLine(double.TryParse("15",out r));
+            List<Element> e = Parser.Parse("2x+3");
+
             Console.WriteLine("HI");
             Console.ReadKey();
         }

@@ -7,12 +7,5 @@ namespace CAS
 {
     public class GV
     {
-        public enum basicOperators
-        {
-            add,
-            subtract,
-            multiply,
-            divide
-        };
     }
 }

@@ -17,7 +17,7 @@ namespace CAS
         };
         basicOperators oper;
 
-        public Operator(char op)
+        private Operator(char op)
         {
             switch (op)
             {
@@ -36,6 +36,38 @@ namespace CAS
                 default:
                     this.oper = basicOperators.NONE;
                     break;
+            }
+        }
+        public static bool TryParseOperator(char op, out Operator oper)
+        {
+            Operator temp = new Operator(op);
+
+            if (temp.oper == basicOperators.NONE)
+            {
+                oper = null;
+                return false;
+            }
+            oper = temp;
+            return true;
+        }
+
+        public override string ToString()
+        {
+            switch (this.oper){
+                case basicOperators.ADD:
+                return "+";
+
+                case basicOperators.SUBTRACT:
+                return "-";
+
+                case basicOperators.MULTIPLY:
+                return "*";
+
+                case basicOperators.DIVIDE:
+                return "/";
+
+                default:
+                return " ";
             }
         }
     }

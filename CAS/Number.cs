@@ -13,5 +13,10 @@ namespace CAS
         {
             this.value = d;
         }
+
+        public override string ToString()
+        {
+            return this.value.ToString();
+        }
     }
 }
