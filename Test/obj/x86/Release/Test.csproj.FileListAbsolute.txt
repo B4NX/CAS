@@ -1,0 +1,7 @@
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\bin\Release\Test.exe
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\bin\Release\Test.pdb
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\bin\Release\CAS.dll
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\bin\Release\CAS.pdb
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\obj\x86\Release\Test.csprojResolveAssemblyReference.cache
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\obj\x86\Release\Test.exe
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\obj\x86\Release\Test.pdb

@@ -1,0 +1,4 @@
+C:\Users\Nikko\Documents\Dev\C#\CAS\CAS\bin\Release\CAS.dll
+C:\Users\Nikko\Documents\Dev\C#\CAS\CAS\bin\Release\CAS.pdb
+C:\Users\Nikko\Documents\Dev\C#\CAS\CAS\obj\Release\CAS.dll
+C:\Users\Nikko\Documents\Dev\C#\CAS\CAS\obj\Release\CAS.pdb
