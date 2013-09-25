@@ -10,9 +10,12 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            List<Element> e = Parser.Parse("2x+3");
+            List<Element> e = Parser.Parse("2x +  3");
 
-            Console.WriteLine("HI");
+            foreach (Element ele in e)
+            {
+                Console.WriteLine(ele);
+            }
             Console.ReadKey();
         }
     }

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS", "CAS\CAS.csproj", "{D2B70F77-C624-4E03-A2B9-97A8BB242B12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{DF9652FC-5B88-4230-9054-31EC6D6472AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockup", "Mockup\Mockup.csproj", "{F100EDBC-862C-465D-AB3C-8B05D8D64F09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "Mockup\GUI.csproj", "{F100EDBC-862C-465D-AB3C-8B05D8D64F09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

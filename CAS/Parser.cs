@@ -14,7 +14,7 @@ namespace CAS
 
             foreach (char c in characters)
             {
-                if (c == ' ') break;
+                if (c == ' ') continue;
 
                 double d;
                 Operator o;
