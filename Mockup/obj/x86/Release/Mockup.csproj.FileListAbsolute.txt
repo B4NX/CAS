@@ -1,7 +1,0 @@
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\bin\Release\Mockup.exe
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\bin\Release\Mockup.pdb
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\obj\x86\Release\Mockup.Form1.resources
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\obj\x86\Release\Mockup.Properties.Resources.resources
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\obj\x86\Release\Mockup.csproj.GenerateResource.Cache
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\obj\x86\Release\Mockup.exe
-C:\Users\Nikko\Documents\Dev\C#\CAS\Mockup\obj\x86\Release\Mockup.pdb

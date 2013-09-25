@@ -5,3 +5,5 @@ C:\Users\s-nrush\Desktop\Dev\CAS\Test\bin\Debug\CAS.dll
 C:\Users\s-nrush\Desktop\Dev\CAS\Test\bin\Debug\CAS.pdb
 C:\Users\s-nrush\Desktop\Dev\CAS\Test\obj\x86\Debug\Test.exe
 C:\Users\s-nrush\Desktop\Dev\CAS\Test\obj\x86\Debug\Test.pdb
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\obj\x86\Debug\Test.exe
+C:\Users\Nikko\Documents\Dev\C#\CAS\Test\obj\x86\Debug\Test.pdb
