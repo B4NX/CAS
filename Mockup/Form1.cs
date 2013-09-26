@@ -25,11 +25,6 @@ namespace Mockup {
             this.textBox1.Text = Math.Sqrt(n).ToString();
         }
 
-        private void btnDivide_Click(object sender, EventArgs e)
-        {
-            this.textBox1.Text += "/";
-        }
-
         private double total1 = 0;
         private double total2 = 0;
 
@@ -46,7 +41,7 @@ namespace Mockup {
         private bool btnMultiplyClicked;
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-            total1 *= double.Parse(textBox1.Text);
+            total1 += double.Parse(textBox1.Text);
             textBox1.Clear();
 
             btnMultiplyClicked = true;
@@ -55,10 +50,19 @@ namespace Mockup {
         private bool btnSubtractClicked;
         private void btnSubtract_Click(object sender, EventArgs e)
         {
-            total1 -= double.Parse(textBox1.Text);
+            Console.WriteLine();
+            total1 += double.Parse(textBox1.Text);
             textBox1.Clear();
 
             btnSubtractClicked = true;
+        }
+        private bool btnDivideClicked;
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            total1 += double.Parse(textBox1.Text);
+            textBox1.Clear();
+
+            btnDivideClicked = true;
         }
 
         private void btnEquals_Click(object sender, EventArgs e)
@@ -68,7 +72,46 @@ namespace Mockup {
                 total2 = total1 + double.Parse(textBox1.Text);
                 textBox1.Text = total2.ToString();
                 total1 = 0;
+                plusButtonClicked = false;
             }
+            else if (btnSubtractClicked)
+            {
+                total2 = total1 - double.Parse(textBox1.Text);
+                textBox1.Text = total2.ToString();
+                total1 = 0;
+                btnSubtractClicked = false;
+            } 
+            else if (btnMultiplyClicked)
+            {
+                total2 = total1 * double.Parse(textBox1.Text);
+                textBox1.Text = total2.ToString();
+                total1 = 0;
+                btnMultiplyClicked = false;
+            } 
+            else if (btnDivideClicked)
+            {
+                total2 = total1 / double.Parse(textBox1.Text);
+                textBox1.Text = total2.ToString();
+                total1 = 0;
+                btnDivideClicked = false;
+            }
+        }
+
+        private void btnNumber_Click(object sender, EventArgs e)
+        {
+            string temp = sender.ToString();
+
+            if (textBox1.Text == "0")
+            {
+                textBox1.Text = temp[temp.Length - 1].ToString();
+            } else textBox1.Text += temp[temp.Length - 1];
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            this.total1 = 0;
+            this.total2 = 0;
         }
     }
 }
