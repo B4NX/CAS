@@ -10,13 +10,28 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            List<Element> e = Parser.Parse("2x +  3");
+            Equation fx=new Equation(Parser.Parse("2x +  3"));
 
-            foreach (Element ele in e)
+            //foreach (Element ele in fx)
+            //{
+            //    Console.WriteLine(ele);
+            //}
+        }
+
+        private static long Factorial_Func(long n)
+        {
+            if (n == 0 || n == 1) { return 1; }
+
+            //long tempN = n;
+            //long holder = n;
+
+            long output=1;
+
+            for (long x = 1; x <= n; x++)
             {
-                Console.WriteLine(ele);
+                output *= x;
             }
-            Console.ReadKey();
+            return output;
         }
     }
 }

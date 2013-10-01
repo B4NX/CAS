@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Element.cs" />
+    <Compile Include="Equation.cs" />
     <Compile Include="GV.cs" />
     <Compile Include="Number.cs" />
     <Compile Include="Operator.cs" />

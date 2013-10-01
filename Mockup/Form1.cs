@@ -67,30 +67,33 @@ namespace Mockup {
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
+            double output=0;
+            double.TryParse(textBox1.Text, out output);
+
             if (plusButtonClicked)
             {
-                total2 = total1 + double.Parse(textBox1.Text);
+                total2 = output+total1;
                 textBox1.Text = total2.ToString();
                 total1 = 0;
                 plusButtonClicked = false;
             }
             else if (btnSubtractClicked)
             {
-                total2 = total1 - double.Parse(textBox1.Text);
+                total2 = total1-output;
                 textBox1.Text = total2.ToString();
                 total1 = 0;
                 btnSubtractClicked = false;
             } 
             else if (btnMultiplyClicked)
             {
-                total2 = total1 * double.Parse(textBox1.Text);
+                total2 = total1 * output;
                 textBox1.Text = total2.ToString();
                 total1 = 0;
                 btnMultiplyClicked = false;
             } 
             else if (btnDivideClicked)
             {
-                total2 = total1 / double.Parse(textBox1.Text);
+                total2 = total1 / output;
                 textBox1.Text = total2.ToString();
                 total1 = 0;
                 btnDivideClicked = false;
@@ -99,12 +102,12 @@ namespace Mockup {
 
         private void btnNumber_Click(object sender, EventArgs e)
         {
-            string temp = sender.ToString();
+            Button temp = (Button)sender;
 
             if (textBox1.Text == "0")
             {
-                textBox1.Text = temp[temp.Length - 1].ToString();
-            } else textBox1.Text += temp[temp.Length - 1];
+                textBox1.Text = temp.Text;
+            } else textBox1.Text += temp.Text;
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -112,6 +115,43 @@ namespace Mockup {
             textBox1.Text = "";
             this.total1 = 0;
             this.total2 = 0;
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            ulong n;
+            ulong.TryParse(textBox1.Text, out n);
+            try
+            {
+                textBox1.Text = Factorial(n).ToString();
+            } catch (StackOverflowException er)
+            {
+                System.Diagnostics.Debug.WriteLine(er);
+            }
+        }
+        private static double Factorial(ulong d)
+        {
+            System.Diagnostics.Debug.WriteLine(d);
+            if (d == 1 || d == 0)
+            {
+                return 1;
+            }
+            return d * Factorial(d - 1);
+        }
+
+        private long Factorial_Func(long n){
+            if (n==0||n==1){ return 1;}
+            
+            long temp=n;
+            long holder=1;
+
+            while (temp != 0)
+            {
+                holder = holder * temp;
+                temp--;
+            }
+
+            return 0;
         }
     }
 }

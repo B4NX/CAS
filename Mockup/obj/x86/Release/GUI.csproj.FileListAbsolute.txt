@@ -1,0 +1,9 @@
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\bin\Release\Mockup.exe
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\bin\Release\Mockup.pdb
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\Mockup.Form1.resources
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\Mockup.Properties.Resources.resources
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\Mockup.exe
+C:\Users\s-nrush\Desktop\Dev\CAS\Mockup\obj\x86\Release\Mockup.pdb

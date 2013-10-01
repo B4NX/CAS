@@ -25,6 +25,7 @@
         private void InitializeComponent() {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.buttons = new System.Windows.Forms.Panel();
+            this.button18 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -42,7 +43,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             this.buttons.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +58,7 @@
             // 
             // buttons
             // 
+            this.buttons.Controls.Add(this.button19);
             this.buttons.Controls.Add(this.button18);
             this.buttons.Controls.Add(this.button17);
             this.buttons.Controls.Add(this.button16);
@@ -79,6 +81,16 @@
             this.buttons.Name = "buttons";
             this.buttons.Size = new System.Drawing.Size(180, 197);
             this.buttons.TabIndex = 1;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(-1, 170);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(87, 26);
+            this.button18.TabIndex = 35;
+            this.button18.Text = "Clear";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // button17
             // 
@@ -250,15 +262,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnNumber_Click);
             // 
-            // button18
+            // button19
             // 
-            this.button18.Location = new System.Drawing.Point(-1, 170);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(87, 26);
-            this.button18.TabIndex = 35;
-            this.button18.Text = "Clear";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.btnClear_Click);
+            this.button19.Location = new System.Drawing.Point(90, 170);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(43, 26);
+            this.button19.TabIndex = 36;
+            this.button19.Text = "!";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // Form1
             // 
@@ -297,6 +309,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
     }
 }
 

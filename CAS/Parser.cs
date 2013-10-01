@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CAS
 {
-    public class Parser
+    public static class Parser
     {
         public static List<Element> Parse(string expression)
         {
